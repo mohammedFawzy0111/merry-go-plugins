@@ -1,0 +1,17 @@
+{
+  "name": "Manga Reader Plugin Repository",
+  "version": "1.0.0",
+  "description": "Official plugin repository for Manga Reader app",
+  "plugins": [
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "description": "Official MangaDex source plugin with extensive manga library",
+      "icon": "https://mangadex.org/favicon.ico",
+      "entryPoint": "https://raw.githubusercontent.com/your-username/manga-reader-plugins/main/plugins/mangadex.js",
+      "minAppVersion": "1.0.0",
+    },
+  ],
+  "lastUpdated": "2024-01-15T10:00:00Z"
+}
