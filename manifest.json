@@ -1,7 +1,7 @@
 {
-  "name": "Manga Reader Plugin Repository",
+  "name": "Merry-go Plugin Repository",
   "version": "1.0.0",
-  "description": "Official plugin repository for Manga Reader app",
+  "description": "Official plugin repository for Merrygo app",
   "plugins": [
     {
       "id": "mangadex",
