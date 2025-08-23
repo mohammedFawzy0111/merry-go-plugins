@@ -9,7 +9,7 @@
       "version": "1.0.0",
       "description": "Official MangaDex source plugin with extensive manga library",
       "icon": "https://mangadex.org/favicon.ico",
-      "entryPoint": "https://raw.githubusercontent.com/your-username/manga-reader-plugins/main/plugins/mangadex.js",
+      "entryPoint": "https://raw.githubusercontent.com/mohammedFawzy0111/merry-go-plugins/main/sources/MangaDex.js",
       "minAppVersion": "1.0.0",
     },
   ],
