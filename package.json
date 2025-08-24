@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build:plugins": "node scripts/build-plugins.mjs",
+    "build:plugins": "node scripts/build-plugins.js",
     "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
