@@ -1,4 +1,3 @@
-// MangaDex plugin for the new system
 const API = "https://api.mangadex.org";
 const CDN = "https://uploads.mangadex.org";
 const MANGA_DEX_HEADERS = {
