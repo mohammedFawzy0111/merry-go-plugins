@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
 
-const pluginsDir = "./plugins";
+const pluginsDir = "./sources";
 const distDir = "./dist";
 const manifestPath = "./manifest.json";
 
