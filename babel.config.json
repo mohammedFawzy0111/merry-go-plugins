@@ -5,11 +5,14 @@
         "android": "70"
       },
       "useBuiltIns": "usage",
-      "corejs": 3
+      "corejs": 3,
+      "modules": false
     }]
   ],
   "plugins": [
-    "@babel/plugin-transform-async-to-generator",
-    "@babel/plugin-transform-regenerator"
+    ["@babel/plugin-transform-runtime", {
+      "regenerator": true,
+      "corejs": 3
+    }]
   ]
 }
