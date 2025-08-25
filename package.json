@@ -22,7 +22,10 @@
   "devDependencies": {
     "@babel/cli": "^7.28.3",
     "@babel/core": "^7.28.3",
+    "@babel/plugin-transform-async-to-generator": "^7.27.1",
+    "@babel/plugin-transform-regenerator": "^7.28.3",
     "@babel/preset-env": "^7.28.3",
+    "core-js": "^3.45.1",
     "terser": "^5.43.1"
   }
 }

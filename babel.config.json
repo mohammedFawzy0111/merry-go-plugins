@@ -2,8 +2,14 @@
   "presets": [
     ["@babel/preset-env", {
       "targets": {
-        "android": "70" 
-      }
+        "android": "70"
+      },
+      "useBuiltIns": "usage",
+      "corejs": 3
     }]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-async-to-generator",
+    "@babel/plugin-transform-regenerator"
   ]
 }
