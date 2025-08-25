@@ -2,17 +2,12 @@
   "presets": [
     ["@babel/preset-env", {
       "targets": {
-        "android": "70"
+        "browsers": ["Android >= 4.4"]
       },
-      "useBuiltIns": "usage",
-      "corejs": 3,
       "modules": false
     }]
   ],
   "plugins": [
-    ["@babel/plugin-transform-runtime", {
-      "regenerator": true,
-      "corejs": 3
-    }]
+    "transform-async-to-promises"
   ]
 }

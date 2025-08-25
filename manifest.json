@@ -1,3 +1,11 @@
 {
-  "plugins": []
+  "plugins": [
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "icon": "https://mangadex.org/favicon.ico",
+      "entryPoint": "https://raw.githubusercontent.com/mohammedFawzy0111/merry-go-plugins/main/dist/mangadex.compat.js"
+    }
+  ]
 }
